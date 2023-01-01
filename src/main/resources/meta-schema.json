@@ -1,0 +1,68 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Car",
+	"description": "Schema validation for a car",
+	"type": "object",
+	"definitions": {
+		"registrationNumber": {
+			"description": "The unique identifier for a product",
+			"type": "string"
+		},
+		"chasisNumber": {
+			"description": "Name of the product",
+			"type": "string"
+		},
+		"chasisColor": {
+			"description": "Name of the product",
+			"type": "string"
+		},
+		"number": {
+			"description": "Name of the product",
+			"type": "string"
+		},
+		"capacity": {
+			"description": "Name of the product",
+			"type": "number"
+		},
+		"tyreData": {
+			"description": " ",
+			"type": "array",
+			"items": "#definitions/items"
+		},
+		"items": {
+			"description": " ",
+			"type": "object",
+			"properties": {
+				"number": {
+					"description": " ",
+					"type": "string"
+				},
+				"year": {
+					"description": " ",
+					"type": "integer"
+				}
+			}
+		},
+		"user": {
+			"description": "Name of the product",
+			"type": "object",
+			"properties": {
+				"name" : {
+					"description": " ",
+					"type": "string"
+				},
+				"profile": {
+					"description": " ",
+					"type": "string"
+				}
+			}
+		}
+	},
+	"required": [
+		"registrationNumber",
+		"chasisNumber",
+		"chasisColor",
+		"tyreData",
+		"user"
+	]
+}
