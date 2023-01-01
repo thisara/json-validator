@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # About Code #
 
 - This is the car microservice which is a part of myfleet.
@@ -67,3 +68,7 @@
 	GEN000 - Unhanddled Exception
 	
 #### Demo video link :  https://www.youtube.com/watch?v=Lkq9-srSWbc
+=======
+# json-validator
+Json payload validate with Json Schema
+>>>>>>> f36e6f51a9e1378aea02b818d606aaae10840827
